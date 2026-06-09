@@ -1,34 +1,35 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Assistant Professor, School of Marine Science and Technology, Tianjin University
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: profile.jpg
+  image_circular: false # 不使用圆形头像
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Office: Room 226, Eighth Teaching Building</p>
+    <p>72 Weijin Road, Nankai District</p>
+    <p>Tianjin 300072, China</p>
+    <p>Email: shenlinghao@tju.edu.cn</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+news: true # 显示新闻动态
+latest_posts: false # 不显示博客
+selected_papers: true # 显示精选论文
+social: true # 显示社交链接
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+## Short Bio
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My name is **Linghao Shen (申凌皓)**. I am currently an Assistant Professor (Lecturer) at the School of Marine Science and Technology, Tianjin University. I received my B.S., M.S. and Ph.D. degrees from Northwestern Polytechnical University in 2016, 2018 and 2024, respectively.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+## Research Interests
+
+My primary research interests lie in the intersection of **computational imaging, polarization vision and marine optics**. Specifically, I focus on developing advanced imaging techniques to see through scattering media such as turbid water and haze, with applications in underwater exploration, ocean engineering and autonomous navigation.
+
+Current research topics:
+- Underwater polarization imaging and 3D reconstruction
+- Scattering light field decoupling and restoration
+- Machine learning for computational imaging
+- Polarization-based object detection and recognition
